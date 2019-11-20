@@ -1,0 +1,54 @@
+/*{
+  "rules": {
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-operator",
+      "check-decl",
+      "check-rest-spread",
+      "check-preblock"
+    ],
+    "max-line-length": {
+      "options": [
+        200
+      ],
+      "severity": "warning"
+    },
+    "import-spacing": true,
+    "new-parens": true,
+    "no-arg": true,
+    "no-duplicate-imports": true,
+    "no-conditional-assignment": true,
+    "no-unused-expression": true,
+    "no-return-await": true,
+    "await-promise": {
+      "severity": "none" // bug in latest tslint, incompatbility with AxiosPromise
+    },
+    "class-name": true,
+    "no-invalid-template-strings": true,
+    "no-unused-variable": {
+      "options": { "ignore-pattern": "^_" },
+      "severity": "warn"
+    },
+    "no-debugger": true,
+    "no-string-throw": true,
+    "use-isnan": true,
+    "no-var-keyword": true,
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "prefer-const": [true, {"destructuring": "all"}],
+    "no-switch-case-fall-through": true,
+    "no-empty-line-after-opening-brace": false,
+    "object-literal-key-quotes": [
+      true,
+      "as-needed"
+    ],
+    "curly": true,
+    "semicolon": [
+      true,
+      "always"
+    ]
+  }
+}*/

@@ -1,0 +1,32 @@
+{
+  "extends": ["recommended/esnext", "node", "plugin:react/recommended"],
+  "env": { 
+    "browser": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "no-shadow": ["error", { "allow": ["done"] }],
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "no-invalid-this": "off",
+    "import/no-namespace": "off",
+    "import/no-nodejs-modules": "off",
+    "import/no-unresolved": ["error", {"commonjs": true, "amd": true}],
+    "quotes": ["error", "single", { "allowTemplateLiterals": true, "avoidEscape": true }],
+    "no-unused-vars": "error",
+    "semi": "off",
+    "no-extra-semi": "error",
+    "class-methods-use-this": "off",
+    "react/display-name": "off",
+    "react/prop-types": "off"
+  },
+  "plugins": ["react"]
+}

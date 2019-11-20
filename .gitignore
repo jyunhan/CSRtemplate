@@ -1,0 +1,8 @@
+/node_modules
+/public/compile
+practice
+built_backend
+.DS_Store
+.env
+yarn-error.log
+*.development

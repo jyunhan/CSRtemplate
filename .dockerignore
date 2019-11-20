@@ -1,0 +1,4 @@
+node_modules
+built_backend
+public/compile
+npm-debug.log

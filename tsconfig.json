@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "target": "es5",
+      "jsx": "react"
+  },
+  "include": [
+    "./public/javascripts/**/*"
+  ]
+}
+
+/*
+  {
+    "compileOnSave": false,
+    "compilerOptions": {
+      "plugins": [
+        {
+          "name": "typescript-tslint-plugin",
+          "alwaysShowRuleFailuresAsWarnings": false,
+          "ignoreDefinitionFiles": true,
+          "configFile": "./tslint.json",
+          "suppressWhileTypeErrorsPresent": false,
+          "mockTypeScriptVersion": false
+        }
+      ],
+      // "noUnusedLocals": true,
+      // "noUnusedParameters": true,
+      "moduleResolution": "node",
+      "target": "esnext",
+      "module": "esnext",
+      "experimentalDecorators": true,
+      "types": ["node"],
+      "noEmit": true,
+      "baseUrl": ".",
+      "lib": ["dom", "es2017"],
+      "sourceMap": true,
+      "skipLibCheck": true,
+      "removeComments": true,
+      "allowSyntheticDefaultImports": true,
+      "jsx": "preserve",
+      "allowJs": true,
+      "preserveConstEnums": true,
+      "outDir": "lib",
+      "typeRoots": [
+        "./node_modules/@types",
+        "./typings"
+      ],
+      "paths": {
+        "~components/*": [ "components/*" ],
+        "~state/*": [ "state/*" ],
+        "~tools/*": [ "tools/*" ],
+        "~types/*": [ "types/*" ],
+        "~mocks/*": [ "mocks/*" ],
+        "~api/*": [ "api/*" ]
+      }
+    }
+  }*/
